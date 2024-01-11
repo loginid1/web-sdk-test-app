@@ -20,6 +20,8 @@ Acquire a tenant `base URL` and `application ID` by creating a new [tenant](http
 
 ## How to Run
 
+You can run either with NPM or Docker
+
 ### NPM
 
 The following commands will install the dependencies and run the test app.
