@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+}
+
+iframe {
+  border-width: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+
+.form {
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.tx {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.message {
+  color: gold;
+}
+
+.user__id,
+.user__name {
+  margin-right: 1em;
+}
+
+.transaction_tokens {
+  margin-top: 9em;
+}

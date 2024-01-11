@@ -1,0 +1,32 @@
+extends layout.pug
+
+block body
+	div.App
+		div.uuids
+		div#code
+		div.form
+			p.message
+			input#username(placeholder="Username")
+			input#credential_name(placeholder="Credential Name")
+			input#credential_uuid(placeholder="Credential UUID")
+			button Config Info
+			button UV Platform Check
+			button Get Credentials
+			button Rename Passkey
+			button Lock Passkey
+			button Unlock Passkey
+			button Delete Passkey
+			button Add Passkey
+			button Add Recovery Credential
+			button Rename Recovery Credential
+			button Delete Recovery Credential
+			button Login Passkey
+			button Register Passkey
+			button Register Email
+			button Login Email
+		div.form
+			input#app_id(placeholder="App ID")
+			input#base_uri(placeholder="Base URI")
+			textarea#pkey(placeholder="Private Key")
+			button Configure
+	script(src="/bundle/bundle.js")
